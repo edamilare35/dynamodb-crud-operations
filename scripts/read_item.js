@@ -10,7 +10,7 @@ const params = {
   }
 };
 
-dynamoDB.put(params, (err, data) =&gt; {
+dynamoDB.put(params, (err, data) => {
   if (err) {
     console.error('Unable to add item. Error JSON:', JSON.stringify(err, null, 2));
   } else {
